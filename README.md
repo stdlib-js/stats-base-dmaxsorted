@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dmaxsorted;
+})();
 })();
 </script>
 ```
@@ -180,6 +182,7 @@ var v = dmaxsorted.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmaxsorted@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -193,6 +196,7 @@ console.log( x );
 var v = dmaxsorted( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -289,19 +293,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dmaxsorted/main/LICENSE
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmax]: https://github.com/stdlib-js/stats-base-dmax/tree/umd
+[@stdlib/stats/base/dmax]: https://github.com/stdlib-js/stats-base-dmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/dminsorted]: https://github.com/stdlib-js/stats-base-dminsorted/tree/umd
+[@stdlib/stats/base/dminsorted]: https://github.com/stdlib-js/stats-base-dminsorted/tree/umd/tree/umd
 
-[@stdlib/stats/base/maxsorted]: https://github.com/stdlib-js/stats-base-maxsorted/tree/umd
+[@stdlib/stats/base/maxsorted]: https://github.com/stdlib-js/stats-base-maxsorted/tree/umd/tree/umd
 
-[@stdlib/stats/base/smaxsorted]: https://github.com/stdlib-js/stats-base-smaxsorted/tree/umd
+[@stdlib/stats/base/smaxsorted]: https://github.com/stdlib-js/stats-base-smaxsorted/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
