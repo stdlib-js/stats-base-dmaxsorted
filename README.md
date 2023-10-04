@@ -50,6 +50,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+dmaxsorted = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmaxsorted@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dmaxsorted/tags). For example,
+
+```javascript
 dmaxsorted = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmaxsorted@v0.1.1-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var dmaxsorted = require( 'path/to/vendor/umd/stats-base-dmaxsorted/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmaxsorted@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmaxsorted@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -188,7 +193,7 @@ var v = dmaxsorted.ndarray( N, x, 2, 1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmaxsorted@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmaxsorted@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
