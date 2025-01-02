@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`f0ddcaa`](https://github.com/stdlib-js/stdlib/commit/f0ddcaa9c0fef19e741dbaea78169a91fa077c89) - **style:** add missing parentheses _(by Athan Reines)_
 -   [`f36eb5d`](https://github.com/stdlib-js/stdlib/commit/f36eb5d4b86b5e50150a5760cea64ed1de2275e4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxsorted` [(#4456)](https://github.com/stdlib-js/stdlib/pull/4456) _(by Aayush Khanna)_
 -   [`321e287`](https://github.com/stdlib-js/stdlib/commit/321e2873cff00af9a461badef0e511417edc819d) - **style:** align comments _(by Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
