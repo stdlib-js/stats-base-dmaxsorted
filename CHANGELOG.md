@@ -6,12 +6,23 @@
 
 ## Unreleased (2025-01-02)
 
+<section class="features">
+
+### Features
+
+-   [`f36eb5d`](https://github.com/stdlib-js/stdlib/commit/f36eb5d4b86b5e50150a5760cea64ed1de2275e4) - add C ndarray interface and refactor implementation for `stats/base/dmaxsorted` [(#4456)](https://github.com/stdlib-js/stdlib/pull/4456)
+
+</section>
+
+<!-- /.features -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`f36eb5d`](https://github.com/stdlib-js/stdlib/commit/f36eb5d4b86b5e50150a5760cea64ed1de2275e4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxsorted` [(#4456)](https://github.com/stdlib-js/stdlib/pull/4456) _(by Aayush Khanna)_
 -   [`321e287`](https://github.com/stdlib-js/stdlib/commit/321e2873cff00af9a461badef0e511417edc819d) - **style:** align comments _(by Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`59846f8`](https://github.com/stdlib-js/stdlib/commit/59846f8bb24fb1c74fee9742c3c74bc1c84b293a) - **refactor:** update `stats/base/dmaxsorted` native addon from C++ to C [(#4084)](https://github.com/stdlib-js/stdlib/pull/4084) _(by Aayush Khanna)_
