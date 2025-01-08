@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-02)
+## Unreleased (2025-01-08)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
 -   [`f0ddcaa`](https://github.com/stdlib-js/stdlib/commit/f0ddcaa9c0fef19e741dbaea78169a91fa077c89) - **style:** add missing parentheses _(by Athan Reines)_
 -   [`f36eb5d`](https://github.com/stdlib-js/stdlib/commit/f36eb5d4b86b5e50150a5760cea64ed1de2275e4) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmaxsorted` [(#4456)](https://github.com/stdlib-js/stdlib/pull/4456) _(by Aayush Khanna)_
 -   [`321e287`](https://github.com/stdlib-js/stdlib/commit/321e2873cff00af9a461badef0e511417edc819d) - **style:** align comments _(by Athan Reines)_
